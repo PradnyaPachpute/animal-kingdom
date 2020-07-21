@@ -6,34 +6,29 @@ a. How did you unit test it?
 b. How did you optimize the code for maintainability?
 (Ask yourself the same question for all following exercises)
 
-You are expected to spend 1 to 1.5 hours on the assignment. If you run out of time,
-please submit the results as far as you got within this amount of time. We value
-quality over quantity.
-Code assignment - Java developer
-
 2. Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you
 implement them to make their own special sound?
-a. A duck says: ìQuack, quackî
+a. A duck says: ‚ÄúQuack, quack‚Äù
 b. A duck can swim
-c. A chicken says: ìCluck, cluckî
+c. A chicken says: ‚ÄúCluck, cluck‚Äù
 d. A chicken cannot fly (assumption: its wings are clipped but ignore that)
 3. Now how would you model a rooster?
-a. A rooster says: ìCock-a-doodle-dooî
+a. A rooster says: ‚ÄúCock-a-doodle-doo‚Äù
 b. How is the rooster related to the chicken?
 c. Can you think of other ways to model a rooster without using inheritance?
 4. Can you model a parrot? We are specifically interested in three parrots, one that
 lived in a house with dogs one in a house with cats, the other lived on a farm next to
 the rooster.
-a. A parrot living with dogs says: ìWoof, woofî
-b. A parrot living with cats says: ìMeowî
-c. A parrot living near the rooster says: ìCock-a-doodle-dooî
+a. A parrot living with dogs says: ‚ÄúWoof, woof‚Äù
+b. A parrot living with cats says: ‚ÄúMeow‚Äù
+c. A parrot living near the rooster says: ‚ÄúCock-a-doodle-doo‚Äù
 d. How do you keep the parrot maintainable? What if we need another parrot
 lives near a Duck? Or near a phone that rings frequently?
 
 B. Model fish as well as other swimming animals
 1. In addition to the birds, can you model a fish?
-a. Fishes donít sing
-b. Fishes donít walk
+a. Fishes don‚Äôt sing
+b. Fishes don‚Äôt walk
 c. Fishes can swim
 2. Can you specialize the fish as a Shark and as a Clownfish?
 a. Sharks are large and grey
@@ -86,22 +81,22 @@ rooster as a PoC for demonstrating this. For example, this is how the Rooster so
 differently depending on language. Please add the rooster sound in your native
 tongue.
 
-ï Danish: kykyliky
-ï Dutch: kukeleku
-ï Finnish: kukko kiekuu
-ï French: cocorico
-ï German: kikeriki
-ï Greek: kikiriki
+‚Ä¢ Danish: kykyliky
+‚Ä¢ Dutch: kukeleku
+‚Ä¢ Finnish: kukko kiekuu
+‚Ä¢ French: cocorico
+‚Ä¢ German: kikeriki
+‚Ä¢ Greek: kikiriki
 
-ï Hebrew: coo-koo-ri-koo
-ï Hungarian: kukuriku
-ï Italian: chicchirichi
-ï Japanese: ko-ke-kok-ko-o
-ï Portuguese: cucurucu
-ï Russian: kukareku
-ï Swedish: kuckeliku
-ï Turkish: kuk-kurri-kuuu
-ï Urdu: kuklooku
+‚Ä¢ Hebrew: coo-koo-ri-koo
+‚Ä¢ Hungarian: kukuriku
+‚Ä¢ Italian: chicchirichi
+‚Ä¢ Japanese: ko-ke-kok-ko-o
+‚Ä¢ Portuguese: cucurucu
+‚Ä¢ Russian: kukareku
+‚Ä¢ Swedish: kuckeliku
+‚Ä¢ Turkish: kuk-kurri-kuuu
+‚Ä¢ Urdu: kuklooku
 
 Implementation :
 Animal class is the base class and all other animals extend from Animal class.
