@@ -4,6 +4,7 @@ import com.behaviors.Flyable;
 import com.behaviors.Singable;
 import com.behaviors.Swimmer;
 import com.behaviors.Walkable;
+import com.constants.ROOSTER_LANGUAGE;
 import com.constants.TYPE_OF_PARROT;
 
 public class CountAnimals {
@@ -43,7 +44,7 @@ public class CountAnimals {
 	
 	public static void main(String[] args) {
 		 Animal[] animals = {
-				new Birds(),new Duck(),new Chicken(),new Chicken(true),new Parrot(TYPE_OF_PARROT.PARROT_WITH_DOG),
+				new Birds(),new Duck(),new Chicken(),new Chicken(ROOSTER_LANGUAGE.MARATHI),new Parrot(TYPE_OF_PARROT.PARROT_WITH_DOG),
 				new Fish(), new Shark(),new ClownFish(),new Dolphin(),new Butterfly()
 		};
 		 

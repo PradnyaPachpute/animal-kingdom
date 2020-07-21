@@ -1,24 +1,25 @@
 package com.animals;
 
+import com.constants.ROOSTER_LANGUAGE;
 
 public class Chicken extends Birds{
 	
-	private boolean isRooster;
+    private ROOSTER_LANGUAGE language;
 	
 	public Chicken() {
 		super();
 	}
 	
-	public Chicken(boolean isRooster){
-		this.isRooster=isRooster;
+	public Chicken(ROOSTER_LANGUAGE language){
+		this.language=language;
 	}
 	
 	@Override
 	public void sing() {
-		if(!isRooster)
+		if(language == null)
 			System.out.println("Cluck,cluck");
 		else
-			System.out.println("Cock-a-doodle-doo");
+			System.out.println(language.getLanguage());
 	}
 	
 	@Override
