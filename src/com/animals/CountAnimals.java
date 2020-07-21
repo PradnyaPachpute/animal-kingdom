@@ -22,7 +22,6 @@ public class CountAnimals {
 		
 		for (Animal animal : animals) {
 			if(animal instanceof Flyable){
-				System.out.println(animal);
 				flyCount += 1;
 			}
 			if(animal instanceof Walkable){
