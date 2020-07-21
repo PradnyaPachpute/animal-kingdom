@@ -2,5 +2,7 @@ package com.behaviors;
 
 public interface Swimmer {
 
-	public void swim();
+	default void swim(){
+		System.out.println("I can swim");
+	};
 }
